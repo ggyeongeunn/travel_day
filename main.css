@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-weight: 400;
   color: #333;
   text-decoration: none;
   font-family: "Pretendard Variable", Pretendard;
@@ -100,7 +99,8 @@ hr.chk_line {
 }
 /* 여행지, 여행 준비 */
 .travel,
-.check {
+.check,
+.intro {
   margin: 10px 0;
   padding: 20px;
   background-color: #fff;
@@ -109,9 +109,10 @@ hr.chk_line {
 }
 .travel img {
   width: 100%;
-  max-width: 500px;
+  /* max-width: 500px; */
 }
-.travel h3 {
+.travel h3,
+.intro h2 {
   margin: 10px 0;
   font-weight: 800;
 }
@@ -120,11 +121,13 @@ hr.chk_line {
   font-size: 14px;
   font-weight: 600;
 }
-.travel ul {
+.travel ul,
+.intro ul {
   margin: 16px 0;
 }
 .travel ul li,
-.check ul li {
+.check ul li,
+.intro ul li {
   margin: 6px 20px;
   font-size: 15px;
 }
@@ -141,4 +144,34 @@ footer p {
   margin: 10px 0;
   color: #ebf0f5;
   font-size: 15px;
+}
+
+/* detail */
+.intro img {
+  width: 100%;
+}
+.intro h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #2163b7;
+}
+.intro p {
+  font-size: 14px;
+  color: #a0a0a0;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.intro hr {
+  border-top: 1px solid #585858;
+  margin: 10px 0;
+}
+/* 여행정보 */
+.info {
+  background-color: #f3f7ff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.info p {
+  margin: 5px 0;
 }
